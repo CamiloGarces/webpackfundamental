@@ -14,14 +14,10 @@ const javascriptRules =   {
 }
 
 const cssRules = {
-    module: {
-        rules: [
-          {
-            test: /\.css$/i,
-            use: ["style-loader", "css-loader"],
-          },
-        ],
-      },   
+ 
+    test: /\.css$/i,
+    use: ["style-loader", "css-loader"],
+   
 }
 
 const developmentPlugins = []
